@@ -1,0 +1,10 @@
+^D:\C PROJECT\HOMEWORK\HOMEWORK_2\HOMEWORK_2_10\HOMEWORK_2_10_2\BUILD\CMAKEFILES\ABF24135E151B2B5B03CBAC571FCD99D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/C Project/HomeWork/Homework_2/Homework_2_10/Homework_2_10_2" "-BD:/C Project/HomeWork/Homework_2/Homework_2_10/Homework_2_10_2/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/C Project/HomeWork/Homework_2/Homework_2_10/Homework_2_10_2/build/figure.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
